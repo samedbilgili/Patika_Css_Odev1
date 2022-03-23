@@ -1,0 +1,54 @@
+.menu {
+    text-align: center;
+    margin: 30px 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    font-family: fantasy;
+    font-size: 20px;
+    color: lightgreen;
+    margin: 20px;
+}
+
+.menu a.active {
+    color: black;
+}
+
+.content.aboutus {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content.aboutus div {
+    font-weight: bold;
+    font-size: 20px;
+    background-color: lightblue;
+    padding: 20px;
+}
+
+.content .card {
+    display: flex;
+    box-shadow: 0px 2px 5px green;
+    margin-bottom: 20px;
+}
+
+.content .card.aboutus {
+    display: flex;
+    box-shadow: none;
+    margin-bottom: 20px;
+}
+
+.content .card div {
+    width: 50%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 40px;
+}
+
+.content .card img {
+    max-height: 100%;
+}
